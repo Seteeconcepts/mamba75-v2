@@ -96,9 +96,9 @@ public class MainActivity extends Activity {
     @Override
     protected void onPause() {
         super.onPause();
-        if (webView != null) {
-            webView.onPause();
-        }
+        // Do NOT pause the WebView — this would freeze JavaScript and stop
+        // the scanner, ticks and signals when the app goes to background.
+        // The ScannerService WakeLock keeps the WebSocket alive instead.
     }
 
     @Override
