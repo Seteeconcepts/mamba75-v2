@@ -116,7 +116,7 @@ app/src/main/
   `WindowManager` overlay — no native scanning code needed
 - `START_STICKY` ensures the service restarts if Android kills it
 - The foreground service type is `dataSync` — matches ongoing network data
-  activity, which is exactly what this app does
+  activity, which is exactly what this app does.
 
 ---
 
