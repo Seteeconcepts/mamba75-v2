@@ -1,5 +1,5 @@
 # Mamba75 Scanner — Android App v3.0
-
+v3.1
 A floating overlay Android app that runs the Mamba75 Deriv digit scanner
 continuously — even when you leave the app.
 
